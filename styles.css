@@ -1,0 +1,21 @@
+.like {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s ease-in-out, color 0.3s;
+}
+
+.like:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+.like.clicked {
+    background-color: #e74c3c;
+    color: #fff;
+    transform: scale(1.1);
+    transition: background-color 0.3s, transform 0.2s ease-in-out, color 0.3s;
+}
